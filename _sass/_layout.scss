@@ -4,7 +4,7 @@
 
 // Page container
 
-.page-content{
+.page-content {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -14,17 +14,19 @@
   .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('../img/welcome_card.jpg') center / cover;
+    background: url("../img/welcome_card.jpg") center / cover;
   }
 
-  .mdl-card__supporting-text > span { color: #9F9F9F; }
+  .mdl-card__supporting-text > span {
+    color: #9f9f9f;
+  }
 
   .mdl-card__menu {
     color: #fff;
   }
 }
 
-.post-button{
+.post-button {
   position: absolute;
   right: 15px;
   bottom: 25px;
@@ -68,7 +70,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     min-height: 200px;
-    background: url('../img/welcome_card.jpg') center / cover;
+    background: url("../img/welcome_card.jpg") center / cover;
   }
 
   button {
@@ -77,5 +79,4 @@
     top: 8px;
     right: 8px;
   }
-
 }

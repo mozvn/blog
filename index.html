@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
     {% if post.highlight %}
 
-    <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style="margin-bottom:50px">
 
       <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></header>
 
@@ -32,18 +32,20 @@ layout: default
       </ul>
 
     </div>
-
-    {% else %}
-
-    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
+    {% endif %}
+	{% endfor %}
+	
+	{% for post in site.posts %}
+	{% if post.highlight == null %}
+    <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.excerpt }}</p>
+		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h2 class="mdl-card__title-text">{{ post.title }}</h2>
+        <h6>{{ post.excerpt | strip_html | truncatewords:75 }}</h6>
       </div>
-      <div class="mdl-card__actions mdl-card--border">
+      <div>
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
       </div>
       <div class="mdl-card__menu">
@@ -56,23 +58,21 @@ layout: default
           <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
         </ul>
       </div>
-    </div>
-    {% endif %}
+	</div>
+	{% endif %}
     {% endfor %}
 
   {% else %}
-
-    {% for post in site.posts %}
-
-    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+	{% for post in site.posts %}
+    <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
         <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h2 class="mdl-card__title-text">{{ post.title }}</h2>
         <p>{{ post.excerpt }}</p>
       </div>
-      <div class="mdl-card__actions mdl-card--border">
+      <div>
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">
           Read More
         </a>
