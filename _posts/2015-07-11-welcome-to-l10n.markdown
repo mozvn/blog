@@ -5,7 +5,7 @@ date:   2015-07-11 11:34:20
 categories: Guide
 author: Duy Thanh
 highlight: true
-image: "/assets/img/posts/mozvn.jpg"
+image: "/assets/img/mozvn.jpg"
 ---
 
 Rất đơn giản bạn chỉ cần vào [pontoon](https://pontoon.mozilla.org) đăng ký một tài khoản và bắt đầu dịch. Trước khi dịch bạn chỉ cần đọc trước style guide [1] của team.

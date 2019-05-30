@@ -4,7 +4,7 @@ title:  "API quảng cáo của Google tốt hơn của Facebook, nhưng…"
 date:   2019-05-10 13:34:20
 categories: General
 author: Mozilla
-image: "/assets/img/posts/googles-ad-api.png"
+image: "https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/themes/frontierline/img/fallbacks/pattern-1.png"
 ---
 **… với một vài thiếu sót quan trọng. Công cụ của Google đáp ứng 4 trong 5 tiêu chuẩn tối thiểu của các chuyên gia**
 

@@ -4,7 +4,7 @@ title:  "Các điều luật bảo mật băng thông rộng ở Hoa Kỳ: Chún
 date:   2017-03-30 09:34:20
 categories: ["About Mozilla", "Around the Web", "Internet Health", "Privacy"]
 author: Denelle Dixon
-image: "/assets/img/posts/u-s-broadband.png"
+image: "https://blog.mozilla.org/wp-content/uploads/2017/01/Mozilla.png"
 ---
 
 **Quốc hội Hoa Kỳ đã bỏ phiếu loại bỏ các điều luật mà Ủy ban truyền thông Liên Bang (FCC) đã tạo ra để bảo vệ sự riêng tư của khách hàng sử dụng băng thông rộng. Mozilla hỗ trợ tạo và ban hành các điều luật này để tăng cường sự minh bạch, tôn trọng sự riêng tư và hỗ trợ cho sự kiểm soát của người dùng.**

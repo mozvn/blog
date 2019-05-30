@@ -4,7 +4,7 @@ title:  "Bản phát hành Firefox mới nhất nhanh hơn bao giờ hết"
 date:   2019-05-21 04:34:20
 categories: Firefox
 author: "Marissa Wood"
-image: "/assets/img/posts/FX67_Blog_Speed_1200x660.png"
+image: "https://blog.mozilla.org/wp-content/uploads/2019/05/FX67_Blog_Speed_1200x660.png"
 ---
 
 **Với việc [giới thiệu trình duyệt Firefox Quantum mới vào năm 2017](https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/) chúng tôi đã thay đổi giao diện, cảm nhận và hiệu năng sản phẩm cốt lõi của chúng tôi. Kể từ đó chúng tôi tung ra các sản phẩm mới để bổ sung sự trải nghiệm khi bạn sử dụng Firefox, phục vụ bạn không chỉ đơn thuần như một trình duyệt. Các sản phẩm này bao gồm [Facebook Container](https://www.mozilla.org/en-US/firefox/facebookcontainer/), [Firefox Monitor](https://monitor.firefox.com/) và [Firefox Send](https://send.firefox.com/). Chúng hoạt động để bảo vệ sự riêng tư của bạn và giữ cho bạn an toàn để bạn có thể làm những gì bạn ưa thích một cách dễ dàng và thoải mái trên mạng. Chúng tôi đã thực hiện lời hứa đó với bạn trong hơn 20 năm bằng cách đặt việc bảo mật và quyền riêng tư của bạn lên hàng đầu trong việc xây dựng các sản phẩm mở và có thể truy cập được cho tất cả mọi người.**
@@ -61,4 +61,4 @@ Kiểm tra và tải xuống phiên bản mới nhất của Firefox Quantum, c�
 
 ----
 
-Bài viết được dịch từ: [ Latest Firefox Release is Faster than Ever ](https://blog.mozilla.org/blog/2019/05/21/latest-firefox-release-is-faster-than-ever/)
+Bài viết được dịch từ: [Latest Firefox Release is Faster than Ever](https://blog.mozilla.org/blog/2019/05/21/latest-firefox-release-is-faster-than-ever/)
