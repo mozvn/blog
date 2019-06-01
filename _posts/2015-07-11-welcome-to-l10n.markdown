@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Làm sao để tham gia nhóm L10n"
-date:   2015-07-11 11:34:20
+date:   2015-07-11
 categories: Guide
 author: Duy Thanh
 highlight: true

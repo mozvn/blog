@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bản phát hành Firefox mới nhất nhanh hơn bao giờ hết"
-date:   2019-05-21 04:34:20
+date:   2019-05-21
 categories: Firefox
 author: "Marissa Wood"
 image: "https://blog.mozilla.org/wp-content/uploads/2019/05/FX67_Blog_Speed_1200x660.png"

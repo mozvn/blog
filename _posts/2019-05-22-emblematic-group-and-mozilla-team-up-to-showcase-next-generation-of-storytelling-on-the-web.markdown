@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Emblematic Group và nhóm Mozilla hợp tác để cho ra mắt Storytelling thế hệ tiếp theo trên Web"
-date:   2019-05-22 23:06:30
+date:   2019-05-22
 categories: WEBVR
 author: "Mozilla"
 image: "https://blog.mozilla.org/wp-content/uploads/2019/05/Screenshot-2019-05-22-14.19.24-1400x770.png"
