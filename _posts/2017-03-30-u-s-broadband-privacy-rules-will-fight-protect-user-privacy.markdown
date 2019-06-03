@@ -3,7 +3,6 @@ layout: post
 title:  "Các điều luật bảo mật băng thông rộng ở Hoa Kỳ: Chúng tôi sẽ chiến đấu để bảo vệ sự riêng tư của người dùng"
 date:   2017-03-30
 categories: ["About Mozilla", "Around the Web", "Internet Health", "Privacy"]
-author: Denelle Dixon
 image: "https://blog.mozilla.org/wp-content/uploads/2017/01/Mozilla.png"
 ---
 

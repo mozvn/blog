@@ -3,7 +3,6 @@ layout: post
 title:  "Bản phát hành Firefox mới nhất nhanh hơn bao giờ hết"
 date:   2019-05-21
 categories: Firefox
-author: "Marissa Wood"
 image: "https://blog.mozilla.org/wp-content/uploads/2019/05/FX67_Blog_Speed_1200x660.png"
 ---
 
@@ -31,7 +30,7 @@ Trong lần phát hành Firefox này, chúng tôi đã áp dụng chiến lượ
 
 ##### Bảo vệ quyền riêng tư
 
-Quyền riêng tư luôn luôn là nhiệm vụ cốt lõi của Mozilla, và những tin tức sự kiện gần đây đã cho mọi người thêm lý do để quan tâm đến quyền riêng tư của họ khi lướt web. Trong năm 2018, chúng tôi đã ra mắt các tính năng tập trung vào quyền riêng tư như [trình bảo vệ theo dõi trên máy tính để bàn](https://blog.mozilla.org/blog/2018/01/23/latest-firefox-quantum-release-now-available-with-new-features/) và [trên iOS](https://blog.mozilla.org/blog/2018/04/12/latest-firefox-for-ios-now-available-with-tracking-protection-by-default/), và phần mở rộng [Facebook Container](https://blog.mozilla.org/firefox/facebook-container-extension/).
+Quyền riêng tư luôn luôn là nhiệm vụ cốt lõi của Mozilla, và những tin tức sự kiện gần đây đã cho mọi người thêm lý do để quan tâm đến quyền riêng tư của họ khi lướt web. Trong năm 2018, chúng tôi đã ra mắt các tính năng tập trung vào quyền riêng tư như [trình bảo vệ theo dõi trên máy tính để bàn](/firefox/firefox for mobile/2018/01/23/latest-firefox-quantum-release-now-available-with-new-feature.html) và [trên iOS](https://blog.mozilla.org/blog/2018/04/12/latest-firefox-for-ios-now-available-with-tracking-protection-by-default/), và phần mở rộng [Facebook Container](https://blog.mozilla.org/firefox/facebook-container-extension/).
 
 Bản phát hành hôm nay chúng tôi tiếp tục mang đến cho bạn các tính năng bảo mật và thiết lập các biện pháp bảo vệ giúp bạn an tâm khi lướt web với Firefox. Các tính năng bảo mật bao gồm:
 

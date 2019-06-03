@@ -3,7 +3,6 @@ layout: post
 title:  "Giới thiệu Firefox mới: Firefox Quantum"
 date:   2017-11-14
 categories: Firefox
-author: Mark Mayo
 image: "https://blog.mozilla.org/wp-content/uploads/2017/11/LogoTagline-768x422.png"
 ---
 
@@ -55,3 +54,7 @@ Chúng tôi đã được nhiều bài viết nói về Firefox Quantum khi nó 
 </p>
 
 Bạn có thể trải nghiệm Firefox mới trên [Windows, Mac hoặc Linux](https://www.mozilla.org/firefox/new/). Phiên bản mới cũng đã có trên [iOS](https://mzl.la/2haSZfJ) và [Android](https://mzl.la/2m4YUaD). Có rất nhiều thứ có thể nói về tất cả những công việc tuyệt vời trong Quantum, hoặc một số điều thú vị trong tương lai gần, nhưng tại thời điểm này, bạn nên ngừng đọc và tải xuống Firefox Quantum, bởi vì nó sẽ khiến bạn hạnh phúc.
+
+----
+
+Bài viết được dịch từ: [Introducing the New Firefox: Firefox Quantum](https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/)

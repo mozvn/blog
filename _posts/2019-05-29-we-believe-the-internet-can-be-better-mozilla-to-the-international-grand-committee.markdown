@@ -3,7 +3,6 @@ layout: post
 title:  '"Chúng tôi tin internet có thể tốt hơn" Mozilla gửi tới ủy ban quốc tế'
 date:   2019-05-29
 categories: General
-author: "Mozilla"
 image: "https://blog.mozilla.org/wp-content/uploads/2019/02/Screen-Shot-2019-02-13-at-7.36.23-AM.png"
 ---
 
