@@ -18,13 +18,13 @@ Năm ngoái, chúng tôi đã công bố [cách tiếp cận mới về việc c
 
 Đối với những người muốn xem những công ty nào chúng tôi chặn, bạn có thể bấm vào biểu tượng cái khiên, đi đến phần chặn nội dung, sau đó chọn cookie. Nó nên gọi là chặn theo dõi cookie. Sau đó, nhấp vào mũi tên ở phía bên tay phải và bạn sẽ thấy các công ty được liệt kê là các bên thứ ba có trình theo dõi cookie mà Firefox đã chặn. Nếu bạn muốn tắt chặn cho một trang web cụ thể, hãy bấm vào nút tắt chặn trang web này.
 
-Đối với những người dùng hiện tại, chúng tôi sẽ đặt trình chống theo dõi nâng cao theo mặc định trong những tháng tới mà bạn sẽ không phải thay đổi gì cả. Nếu bạn không thể chờ đợi, bạn có thể bật chức năng này bằng cách bật biểu tượng trình đơn (hình ba dòng kẻ ngang) bên phải của trình duyệt của bạn, sau đó vào phần chặn nội dung. Đi tới phần tùy chọn riêng tư của bạn và chọn phần thiết lập tùy chỉnh ở bên phải. Đánh dấu vào hộp kiểm cookie và đảm bảo rằng "trình theo dõi bên thứ ba" được chọn. Để tìm hiểu thêm về cài đặt bảo mật và quyền riêng tư của chúng tôi hãy xem [tại đây](https://support.mozilla.org/en-US/kb/content-blocking).
+Đối với những người dùng hiện tại, chúng tôi sẽ đặt trình chống theo dõi nâng cao theo mặc định trong những tháng tới mà bạn sẽ không phải thay đổi gì cả. Nếu bạn không thể chờ đợi, bạn có thể bật chức năng này bằng cách bật biểu tượng trình đơn (hình ba dòng kẻ ngang) bên phải của trình duyệt của bạn, sau đó vào phần Content Blocking. Đi tới phần tùy chọn riêng tư của bạn và chọn phần Custom ở bên phải. Đánh dấu vào hộp kiểm Cookies và đảm bảo rằng "Third-party trackers" được chọn. Để tìm hiểu thêm về cài đặt bảo mật và quyền riêng tư của chúng tôi hãy xem [tại đây](https://support.mozilla.org/en-US/kb/content-blocking).
 
 <div style="text-align:center">
 <img style="width:600px" src="https://blog.mozilla.org/wp-content/uploads/2019/05/ETP_EN_Custom_PC_Cropped-600x508.jpg">
 </div>
 <br/>
-<p style="text-align:center;"><i>Đối với người dùng hiện tại, đi đến phần tùy chọn quyền riêng tư, nhấp vào thiết bị tùy chỉnh và đánh dấu vào hộp kiểm Cookie</i></p>
+<p style="text-align:center;"><i>Đối với người dùng hiện tại, đi đến phần tùy chọn Custom, nhấp vào thiết bị tùy chỉnh và đánh dấu vào hộp kiểm Cookies</i></p>
 
 #### Facebook Container mới nhất chặn các theo dõi từ các trang web.
 
