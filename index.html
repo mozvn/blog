@@ -21,15 +21,6 @@ layout: default
           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
         </div>
       </div>
-
-      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ post.id }}">
-        <i class="material-icons">more_vert</i>
-      </button>
-      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
-        <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-        <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-      </ul>
-
     </div>
     {% endif %}
 	{% endfor %}
@@ -45,18 +36,7 @@ layout: default
 		<h6>{{ post.excerpt | strip_html | truncatewords:75 }}</h6>
 		<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm >></a>
       </div>
-      <div>
-       
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
-          <i class="material-icons">share</i>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-        </ul>
-      </div>
+      
 	</div>
 	{% endif %}
     {% endfor %}
@@ -71,15 +51,6 @@ layout: default
 		<h2 class="mdl-card__title-text">{{ post.title }}</h2>
 		<p>{{ post.excerpt }}</p>
 		<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
-          <i class="material-icons">share</i>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-        </ul>
       </div>
     </div>
 
