@@ -32,7 +32,7 @@ Tận dụng công nghệ chống theo dõi mà chúng tôi sử dụng trên Fi
 
 #### Những tính năng mới cho bản Firefox phát hành hôm nay
 
-Với bản phát hành hôm nay chúng tôi đã xây dựng trên nền tảng tuyệt vời do [Firefox Quantum](/firefox/2017/11/14/introducing-firefox-quantum.html) cung cấp trên máy tính để bàn và thêm các khả năng mới cho phiên bản Firefox trên Android.
+Với bản phát hành hôm nay chúng tôi đã xây dựng trên nền tảng tuyệt vời do [Firefox Quantum]({{site.url}}/firefox/2017/11/14/introducing-firefox-quantum.html) cung cấp trên máy tính để bàn và thêm các khả năng mới cho phiên bản Firefox trên Android.
 
 ##### Một trang web nhanh hơn, mượt mà hơn với các cải tiến engine đồ họa
 
