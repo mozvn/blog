@@ -78,3 +78,8 @@ pre {
         }
     }
 }
+
+blockquote::before,
+blockquote::after {
+	content: inherit
+}

@@ -22,7 +22,7 @@ Nhóm nghiên cứu tại Emblematic muốn làm nhiều hơn là sáng tạo, h
 
 ##### VR đối với việc sáng tạo
 
-> What if VR took you somewhere you didn’t necessarily know you wanted to go, but needed to see to fully comprehend? That’s the goal of REACH.  
+> "What if VR took you somewhere you didn’t necessarily know you wanted to go, but needed to see to fully comprehend? That’s the goal of REACH."  
 > - Nonny de la Peña
 
 <img src="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/77489.jpg">
@@ -31,7 +31,7 @@ REACH sử dụng WebVR và các công nghệ web khác để cho phép mọi ng
 
 Với nền tảng REACH, bạn có thể lưu trữ và phân phối các mô hình 3D. Chúng có thể được sử dụng bởi những người mới làm nội dung lần đầu, những người sáng tạo kỳ cựu và các tổ chức tin tức để tạo ra những cuộc dạo chơi sáng tạo và không tốn kém với những nội dung VR.
 
-> I wanted people to feel the whole story with their bodies, not just with their minds.
+> "I wanted people to feel the whole story with their bodies, not just with their minds."  
 > – Nonny de la Peña.
 
 ##### VR đối với nhà báo
@@ -40,7 +40,7 @@ Mozilla tổ chức roadshow cho nhà phát triển để giúp mọi người h
 
 <img src="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/May-17-2019-14-04-15.gif">
 
-> You can place yourself or any of your interviewees into the environment, create, and then open on the web with a link, which is revolutionary. You create a complex and rich story, allowing people to really feel like they are involved in the story themselves.
+> "You can place yourself or any of your interviewees into the environment, create, and then open on the web with a link, which is revolutionary. You create a complex and rich story, allowing people to really feel like they are involved in the story themselves."
 
 ##### VR đối với web
 
