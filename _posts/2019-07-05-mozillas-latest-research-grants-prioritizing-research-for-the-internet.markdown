@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'Các khoản tài trợ mới nhất của Mozilla: Ưu tiên nghiên cứu về Internet'
-date:   2019-07-02
+date:   2019-07-05
 categories: ["General", "Mozilla Research"]
 image: "https://blog.mozilla.org/wp-content/uploads/2018/12/Screenshot-2018-12-17-19.35.47-600x330.png"
 ---
