@@ -2,7 +2,7 @@
 layout: post
 title:  'Mozilla tham gia vào bản tường trình trước tòa, ủng hộ việc bảo vệ các nhân viên LGBTQ khỏi sự phân biệt đối xử'
 date:   2019-07-02
-categories: "Firefox"
+categories: "About Mozilla"
 image: "https://blog.mozilla.org/wp-content/uploads/2019/02/Screen-Shot-2019-02-13-at-7.36.23-AM.png"
 ---
 
