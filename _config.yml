@@ -34,3 +34,7 @@ disqus_shortname: 'mozilla-viet-nam'
 
 # Build settings
 markdown: kramdown
+
+paginate: 12
+plugins_dir:
+  - jekyll-paginate

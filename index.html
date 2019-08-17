@@ -2,60 +2,99 @@
 layout: default
 ---
 <div class="page-content">
-  <div class="mdl-grid">
-  {% if site.post_type == 'highlight' %}
+	<div class="mdl-grid">
+		{% if site.post_type == 'highlight' %}
 
-    {% for post in site.posts %}
-    {% if post.highlight %}
+		{% for post in site.posts %}
+		{% if post.highlight %}
 
-    <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style="margin-bottom:50px">
+		<div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp"
+			style="margin-bottom:50px">
 
-      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></header>
+			<header
+				class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone"
+				{% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></header>
 
-      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-        <div class="mdl-card__supporting-text">
-          <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-          <p>{{ post.excerpt }}</p>
-        </div>
-        <div class="mdl-card__actions">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-	{% endfor %}
-	
-	{% for post in site.posts %}
-	{% if post.highlight == null %}
-    <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
-      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-      </div>
-      <div class="mdl-card__supporting-text">
-		<span>{{ post.date | date: "%b %-d, %Y" }}</span>
-		<h2 class="mdl-card__title-text"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-		<h6>{{ post.excerpt | strip_html | truncatewords:75 }}</h6>
-		<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm >></a>
-      </div>
-      
+			<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+				<div class="mdl-card__supporting-text">
+					<h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+					<p>{{ post.excerpt }}</p>
+				</div>
+				<div class="mdl-card__actions">
+					<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+						href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		{% for post in paginator.posts %}
+		{% if post.highlight == null %}
+		<div
+			class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
+			<div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;"
+				{% endif %}>
+			</div>
+			<div class="mdl-card__supporting-text">
+				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+				<h2 class="mdl-card__title-text"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+				<h6>{{ post.excerpt | strip_html | truncatewords:75 }}</h6>
+				<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm >></a>
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		{% else %}
+		{% for post in paginator.posts %}
+		<div
+			class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+			<div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;"
+				{% endif %}>
+			</div>
+			<div class="mdl-card__supporting-text">
+				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+				<h2 class="mdl-card__title-text">{{ post.title }}</h2>
+				<p>{{ post.excerpt }}</p>
+				<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
+			</div>
+		</div>
+
+		{% endfor %}
+
+		{% endif %}
+
 	</div>
-	{% endif %}
-    {% endfor %}
 
-  {% else %}
-	{% for post in site.posts %}
-    <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
-      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-      </div>
-      <div class="mdl-card__supporting-text">
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-		<h2 class="mdl-card__title-text">{{ post.title }}</h2>
-		<p>{{ post.excerpt }}</p>
-		<a href="{{ post.url | prepend: site.baseurl }}">Đọc thêm</a>
-      </div>
-    </div>
 
-    {% endfor %}
+	<div class="mdl-grid">
+	{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+			{% else %}
+			<span>&laquo; Prev</span>
+			{% endif %}
 
-  {% endif %}
-  </div>
+			{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+			<em>{{ page }}</em>
+			{% elsif page == 1 %}
+			<a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+			{% else %}
+			<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+			{% endfor %}
+
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+			{% else %}
+			<span>Next &raquo;</span>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div>
 </div>
