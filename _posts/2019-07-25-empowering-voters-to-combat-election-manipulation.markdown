@@ -40,7 +40,7 @@ Nhưng bất chấp nỗ lực của chúng tôi giúp Facebook gỡ rối hệ 
 
 Tất cả những điều này đã được ghi nhận thông qua hàng chục báo cáo lỗi được gửi cho Facebook, chỉ ra các biện pháp để sửa lỗi API.
 
-### Lộ trình cho Facebook
+#### Lộ trình cho Facebook
 
 Cuối cùng sự đóng góp của chúng tôi cho nỗ lực này trông rất khác so với những gì chúng tôi đã đặt ra ban đầu. Thay vì một công cụ, chúng tôi có [tài liệu](https://adtransparency.mozilla.org/eu/log/) chi tiết mỗi lần API bị lỗi, mọi rào cản gặp phải và một chuỗi [các mẹo và thủ thuật](https://adtransparency.mozilla.org/eu/methods/) để giúp mọi người sử dụng API.
 
@@ -50,7 +50,7 @@ Trên thực tế, các cuộc bầu cử quan trọng dự kiến sẽ diễn r
 
 Chúng tôi cần Facebook tốt hơn. Chúng tôi cần một API thực sự có ích - không gây trở ngại cho các nhà nghiên cứu và các nhà báo phát hiện ra ai là người đã mua những quảng cáo, cách những quảng cáo này nhắm mục tiêu và người mà họ đang được phục vụ. Nó là một công việc quan trọng nhằm thông báo cho công chúng và các nhà hoạch định chính sách về bản chất và hậu quả của thông tin sai lệch.
 
-Điều này là rất quan trọng trong việc nhận biết thông tin sai lệch. Đó là lý do tại sao chúng tôi lập kế hoạch để tiếp tục công việc của mình về vấn đề này và tiếp tục làm việc để làm sáng tỏ việc quảng cáo online ảnh hưởng đến các cuộc bầu cử như thế nào. 
+Điều này là rất quan trọng trong việc nhận biết thông tin sai lệch. Đó là lý do tại sao chúng tôi lập kế hoạch để tiếp tục công việc của mình về vấn đề này và tiếp tục làm việc để làm sáng tỏ việc quảng cáo trực tuyến ảnh hưởng đến các cuộc bầu cử như thế nào. 
 
 ----
 
