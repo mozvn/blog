@@ -177,3 +177,8 @@ Gần đây Matt đã tạo và quản lý một nhóm Facebook nổi tiếng d�
 Theo dõi Matt trên [Twitter](http://www.twitter.com/mattnavarra), [Instagram](http://www.instagram.com/mattnavarra) và [LinkedIn](http://www.linkedin.com/in/mattnavarra)
 
 <a href="https://www.mozilla.org/firefox/new/?utm_source=blog.mozilla.org&utm_campaign=firefox_frontier&utm_medium=referral&utm_content=tracking-diaries-matt-navarra/"><img src="https://blog.mozilla.org/firefox/files/2019/10/skyline-peace-of-mind-full_EN.png"></a>
+
+
+----
+
+Bài viết được dịch từ: [Tracking Diaries with Matt Navarra](https://blog.mozilla.org/firefox/tracking-diaries-matt-navarra/)
